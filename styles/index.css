@@ -1,10 +1,134 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
+/* Shared Styles */
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+.bg-color{
+    background-color: #111111;
+}
+
+/* Header Section Styles */
+/* Nav Section */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: #E6533C;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-left: 198px;
+}
+.nav-anchor{
+    display: flex;
+    align-items: center;
+    gap: 2.1rem;
+    margin-right: 198px;
+}
+ul li{
+    font-size: 1.1rem;
+    font-weight: 500;
+    list-style-type: none;
+}
+ul a{
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+}
+.btn-primary{
+    width: 75px;
+    height: 1.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.966);
+    background-color: #E6533C;
+    border: none;
+    border-radius: 0.70rem;
+}
+
+/* Header Banner Section Styles */
+.header-banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.header-banner-title{
+    color: rgba(255, 255, 255, 0.979);
+    width: 550px;
+    font-size: 3.6rem;
+    font-weight: 800;
+    margin-left: 195px;
+}
+.title-word-style{
+    font-weight: 110;
+    font-style: italic;
+}
+.header-banner-description{
+    color: rgba(255, 255, 255, 0.479);
+    width: 500px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 195px;
+}
+.banner-btn-1{
+    color: rgba(255, 255, 255, 0.945);
+    width: 158px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color:#E6533C;
+    border: none;
+    border-radius: 20px;
+    margin-left: 195px;
+    margin-top: 20px;
+}
+.banner-btn-2{
+    color: white;
+    width: 158px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    border-color: rgb(247, 242, 242);
+    border-radius: 20px;
+    background-color: transparent;
+    margin-left: 18px;
+}
+.img-container{
+    position: relative;
+    margin-right: 140px;
+}
+/* badge{
+    color: white;
+    background-color: #2c2c2c96;
+    width: 170px;
+    height: 85px;
+    position: absolute;
+    bottom: 70px;
+    right: 240px;
+    border-radius: 10px;
+} */
+.badge-btn{
+    color: white;
+    background-color: #2c2c2c96;
+    width: 170px;
+    height: 85px;
+    position: absolute;
+    bottom: 70px;
+    right: 240px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 900;
+    text-wrap: nowrap;
+}
+.badge-btn-style{
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 18px;
+    font-weight: 400;
 }
