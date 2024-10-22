@@ -2,46 +2,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* Shared Styles */
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.bg-color{
+.bg-color {
     background-color: #111111;
 }
 
 /* Header Section Styles */
 /* Nav Section */
-.nav-bar{
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
     color: #E6533C;
     font-size: 1.9rem;
     font-weight: 700;
     margin-left: 175px;
 }
-.nav-anchor{
+
+.nav-anchor {
     display: flex;
     align-items: center;
     gap: 2.1rem;
     margin-right: 198px;
 }
-ul li{
+
+ul li {
     font-size: 1.1rem;
     font-weight: 500;
     list-style-type: none;
 }
-ul a{
+
+ul a {
     color: rgba(255, 255, 255, 0.705);
     text-decoration: none;
 }
-.btn-primary{
+
+.btn-primary {
     width: 75px;
     height: 1.8rem;
     font-size: 1rem;
@@ -53,42 +58,49 @@ ul a{
 }
 
 /* Header Banner Section Styles */
-.header-banner{
+.header-banner {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    align-items: center;
+    margin-top: 100px;
 }
-.header-banner-title{
+
+.header-banner-title {
     color: rgba(255, 255, 255, 0.979);
     width: 550px;
     font-size: 3.6rem;
     font-weight: 800;
     margin-left: 170px;
 }
-.title-word-style{
+
+.title-word-style {
     font-weight: 110;
     font-style: italic;
 }
-.header-banner-description{
+
+.header-banner-description {
     color: rgba(255, 255, 255, 0.479);
     width: 500px;
     font-size: 15px;
     font-weight: 400;
     margin-left: 170px;
 }
-.banner-btn-1, .run-section-btn{
+
+.banner-btn-1,
+.run-section-btn {
     color: rgba(255, 255, 255, 0.945);
     width: 158px;
     height: 40px;
     font-size: 15px;
     font-weight: 400;
-    background-color:#E6533C;
+    background-color: #E6533C;
     border: none;
     border-radius: 20px;
     margin-left: 170px;
     margin-top: 20px;
 }
-.banner-btn-2{
+
+.banner-btn-2 {
     color: white;
     width: 158px;
     height: 40px;
@@ -99,12 +111,13 @@ ul a{
     background-color: transparent;
     margin-left: 18px;
 }
-.img-container{
+
+.img-container {
     position: relative;
     margin-right: 140px;
 }
 
-.badge-btn-1{
+.badge-btn-1 {
     color: white;
     background-color: #2c2c2c96;
     width: 170px;
@@ -118,12 +131,14 @@ ul a{
     font-weight: 900;
     text-wrap: nowrap;
 }
-.badge-btn-style-1{
+
+.badge-btn-style-1 {
     color: rgba(255, 255, 255, 0.479);
     font-size: 18px;
     font-weight: 400;
 }
-.badge-btn-2{
+
+.badge-btn-2 {
     color: white;
     background-color: #2c2c2c96;
     width: 170px;
@@ -137,7 +152,8 @@ ul a{
     font-weight: 900;
     text-wrap: nowrap;
 }
-.badge-btn-style-2{
+
+.badge-btn-style-2 {
     color: rgba(255, 255, 255, 0.479);
     font-size: 15px;
     font-weight: 400;
@@ -145,107 +161,203 @@ ul a{
 
 /* Main Section Styles */
 /* Change Your Habits Section Styles */
-.main-section-title{
-    color:white;
+.main-section-title,
+.meet-our-team-title {
+    color: white;
     font-size: 50px;
     font-weight: 800;
-    margin-left: 565px;
+    margin-left: 585px;
     margin-top: 150px;
 }
-.main-section-description{
+
+.main-section-description,
+.meet-our-team-description {
     color: rgba(255, 255, 255, 0.479);
     font-size: 15px;
     font-weight: 400;
-    margin-left: 510px;
-    
+    margin-left: 545px;
+
 }
+
 /* Images Styles */
-.img-container-2{
+.img-container-2 {
     display: flex;
     gap: 30px;
 }
-.main-section-img-1, .main-section-img-2, .main-section-img-3, .main-section-img-4{
+
+.main-section-img-1,
+.main-section-img-2,
+.main-section-img-3,
+.main-section-img-4 {
     border-radius: 50%;
-    margin-left: 300px;
+    margin-left: 270px;
     margin-top: 65px;
 }
+
 /* img-1 */
-.img-title-1, .img-title-2, .img-title-3, .img-title-4{
+.img-title-1,
+.img-title-2,
+.img-title-3,
+.img-title-4 {
     color: white;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 330px;
+    margin-left: 300px;
 }
-.img-description-1, .img-description-2, .img-description-3, .img-description-4{
+
+.img-description-1,
+.img-description-2,
+.img-description-3,
+.img-description-4 {
     color: rgba(255, 255, 255, 0.479);
     width: 250px;
     font-size: 15px;
     font-weight: 400;
-    margin-left: 295px;
+    margin-left: 250px;
 }
+
 /* img-2 */
-.main-section-img-2{
+.main-section-img-2 {
     margin-left: 10px;
 }
-.img-title-2{
+
+.img-title-2 {
     margin-left: 75px;
 }
-.img-description-2{
+
+.img-description-2 {
     margin-left: 10px;
 }
+
 /* img-3 */
-.main-section-img-3{
+.main-section-img-3 {
     margin-left: 10px;
 }
-.img-title-3{
+
+.img-title-3 {
     margin-left: 58px;
 }
-.img-description-3{
+
+.img-description-3 {
     margin-left: 10px;
 }
+
 /* img-4 */
-.main-section-img-4{
+.main-section-img-4 {
     margin-left: 10px;
 }
-.img-title-4{
+
+.img-title-4 {
     margin-left: 58px;
 }
-.img-description-4{
+
+.img-description-4 {
     margin-left: 10px;
 }
 
 /* Run an Extra Mill Easily Section */
-.run-an-extra-section{
+.run-an-extra-section {
     width: 1150px;
     height: 390px;
     background-color: #222222;
-    margin-left: 265px;
+    margin-left: 233px;
     border-radius: 20px;
 }
-.run-section{
+
+.run-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 150px;
 }
-.run-section-title{
+
+.run-section-title {
     color: white;
     font-size: 2.9rem;
     font-weight: 800;
     margin-left: 3.5rem;
 }
-.run-section-description{
+
+.run-section-description {
     color: rgba(255, 255, 255, 0.479);
     width: 450px;
     margin-left: 3.5rem;
 }
-.run-section-btn{
+
+.run-section-btn {
     margin-left: 60px;
 }
-.card-img{
+
+.card-img {
     width: 350px;
     height: 300px;
     border-radius: 20px;
     margin-right: 3.5rem;
     margin-top: 3.3rem;
+}
+
+/* Meet Our Team Section Styles */
+.meet-our-team-title {
+    margin-left: 580px;
+}
+
+.meet-our-team-description {
+    width: 600px;
+    margin-left: 528px;
+}
+
+/* Trainer */
+.trainer-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    align-items: center;
+    gap: 30px;
+    margin-left: 250px;
+    margin-top: 85px;
+}
+
+.img-container-3,
+.img-container-4,
+.img-container-5,
+.img-container-6,
+.img-container-7,
+.img-container-8 {
+    position: relative;
+}
+
+.trainer-img-1,
+.trainer-img-2,
+.trainer-img-3,
+.trainer-img-4,
+.trainer-img-5,
+.trainer-img-6 {
+    width: 350px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.trainer-name-1,
+.trainer-name-2,
+.trainer-name-3,
+.trainer-name-4,
+.trainer-name-5,
+.trainer-name-6 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+    left: 18px;
+}
+
+.trainer-1,
+.trainer-2,
+.trainer-3,
+.trainer-4,
+.trainer-5,
+.trainer-6 {
+    color: rgba(255, 255, 255, 0.788);
+    position: absolute;
+    bottom: 20px;
+    left: 18px;
 }
