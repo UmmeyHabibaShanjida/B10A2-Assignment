@@ -451,3 +451,91 @@ hr{
     font-size: 18px;
     font-weight: 400;
 }
+
+/* Mobile Device Responsive */
+@media screen and (max-width: 576px) {
+    .nav-title{
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .nav-anchor{
+        display: none;
+    }
+    .header-banner{
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    .header-banner-title{
+        font-size: 60px;
+        margin-top: 5px;
+    }
+    .header-banner-description{
+        font-size: 25px;
+    }
+    .banner-btn-1, .banner-btn-2{
+        height: 55px;
+        font-size: 20px;
+    }
+    .img-container{
+        margin-left: 190px;
+        margin-top: 50px;
+    }
+    .main-section-title{
+        text-wrap: nowrap;
+        margin-left: 170px;
+        margin-top: 2px;
+    }
+    .main-section-description{
+        width: 370px;
+        margin-left: 190px;
+        font-size: 28px;
+    }
+    .img-container-2{
+        flex-direction: column;
+    }
+    .main-section-img-2, .main-section-img-3, .main-section-img-4{
+        margin-left: 300px;
+    }
+    .img-title-1, .img-title-2, .img-title-3, .img-title-4{
+        margin-left:300px;
+    }
+    .img-description-1, .img-description-2, .img-description-3, .img-description-4{
+        margin-left: 260px;
+    }
+    .run-section{
+        flex-direction: column;
+        margin-right: 550px;
+    }
+    .bmi-calculator-title{
+        margin-top: 400px;
+        text-wrap: nowrap;
+    }
+    .bmi-calculator-title{
+        margin-left: 200px;
+    }
+    .calculator-description{
+        width: 400px;
+        margin-left: 200px;
+    }
+    .table-form-container{
+        width: 100%;
+        flex-direction: column;
+        background-color: transparent;
+        margin-left: 200px;
+    }
+    .meet-our-team-title{
+        margin-top: 300px;
+        text-wrap: nowrap;
+        margin-left: 200px;
+    }
+    .meet-our-team-description{
+        margin-left: 200px;
+    }
+    .trainer-img-container{
+        grid-template-columns:1fr;
+        margin-left: 210px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+}
