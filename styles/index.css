@@ -87,7 +87,7 @@ ul a {
 }
 
 .banner-btn-1,
-.run-section-btn {
+.run-section-btn, .calculate-btn {
     color: rgba(255, 255, 255, 0.945);
     width: 158px;
     height: 40px;
@@ -162,7 +162,7 @@ ul a {
 /* Main Section Styles */
 /* Change Your Habits Section Styles */
 .main-section-title,
-.meet-our-team-title {
+.meet-our-team-title, .bmi-calculator-title{
     color: white;
     font-size: 50px;
     font-weight: 800;
@@ -171,7 +171,7 @@ ul a {
 }
 
 .main-section-description,
-.meet-our-team-description {
+.meet-our-team-description, .calculator-description {
     color: rgba(255, 255, 255, 0.479);
     font-size: 15px;
     font-weight: 400;
@@ -294,6 +294,52 @@ ul a {
     border-radius: 20px;
     margin-right: 3.5rem;
     margin-top: 3.3rem;
+}
+/* BMI Calculator Section */
+.bmi-calculator-title{
+    margin-left: 610px;
+}
+.calculator-description{
+    margin-left: 500px;
+}
+.table-form-container{
+    background-color: #222222;
+    width: auto;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.calculator-title, .bmi-calculator-title-2{
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 30px;
+    font-weight: 800;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    color: rgba(255, 255, 255, 0.527);
+    border: 1px solid rgba(255, 255, 255, 0.466);
+    padding: 8px;
+}
+.calculator-description-2{
+    color: rgba(255, 255, 255, 0.603);
+}
+form> label> input{
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF1A;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#input-width{
+    width: 525px;
+}
+.calculate-btn{
+    margin-left: 15px;
 }
 
 /* Meet Our Team Section Styles */
