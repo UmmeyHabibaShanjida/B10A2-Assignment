@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-.nav-title {
+.nav-title, .fitness-footer {
     color: #E6533C;
     font-size: 1.9rem;
     font-weight: 700;
@@ -360,4 +360,48 @@ ul a {
     position: absolute;
     bottom: 20px;
     left: 18px;
+}
+
+/* Footer Section Styles */
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: #FFFFFF1A;
+    margin-top: 90px;
+}
+.footer-container{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+.fitness-footer{
+    font-size: 65px;
+    font-weight: 800;
+    margin-left: 240px;
+}
+.footer-description{
+    color: #FFFFFF80;
+    width: 500px;
+    margin-left: 240px;
+}
+.footer-title-1, .footer-title-2{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+ul > li, .footer-copy-rights{
+    color: #FFFFFF80;
+    font-size: 20px;
+    font-weight: 400;
+}
+hr{
+    width: 70%;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.footer-copy-rights{
+    margin-left: 610px;
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 400;
 }
